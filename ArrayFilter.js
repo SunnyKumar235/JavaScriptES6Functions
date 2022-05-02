@@ -1,35 +1,7 @@
-// Explore the filter operator on javaScript.
-const characters =[
-    {
-        name : "Sunny",
-        height: 5.7,
-        mass : 62,
-        eye_color: "blue",
-        gender : "Male" 
-    },
+const characters = require('./sampleData');
 
-    {
-        name : "SpiderMan",
-        height: 5.8,
-        mass : 72,
-        eye_color: "blue",
-        gender : "Male" 
-    },
-    {
-        name : "WonderWomen",
-        height: 5.7,
-        mass : 101,
-        eye_color: "blue",
-        gender : "Women" 
-    },
-    {
-        name : "Iron Man",
-        height: 5.7,
-        mass : 120,
-        eye_color: "blue",
-        gender : "Man" 
-    },
-]
+// Explore the filter operator on javaScript.
+
 // Get character with mass greater than 100
 let massGraterThan100 = characters.filter(character=>{
     return character.mass > 100;
