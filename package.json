@@ -1,0 +1,22 @@
+{
+  "name": "javascriptes6functions",
+  "version": "1.0.0",
+  "description": "Practice and get more familiar with ES6 syntax.",
+  "main": "ArrayFilter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunnyKumar235/JavaScriptES6Functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunnyKumar235/JavaScriptES6Functions/issues"
+  },
+  "homepage": "https://github.com/SunnyKumar235/JavaScriptES6Functions#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
